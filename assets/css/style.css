@@ -1,0 +1,38 @@
+body
+{
+    width:100%;
+    max-width:600px;
+    margin:0px auto;
+
+    font-family: 'Roboto', sans-sans-serif;;
+    font-size:16px;
+}
+
+a
+{
+    color: #0365d6;
+}
+
+header
+{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-bottom:10px;
+    border-bottom:1px solid #ddd;
+}
+
+.site-title
+{
+    font-weight: 700;
+    font-size:54px;
+}
+
+main
+{
+
+}
+
+footer
+{
+
+}

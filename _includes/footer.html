@@ -1,0 +1,50 @@
+<footer>
+    <!-- Here there be monsters... -->
+
+    <noscript>
+        <style type="text/css">
+            header, main {
+              display:none;
+            }
+
+            #no_js_enabled {
+                display:absolute;
+                text-align:center;
+                margin-top:50vh;
+            }
+        </style>
+        <div id="no_js_enabled">
+            <p>JavaScript is either disabled, or not supported by your current browser.</p>
+            <p>Please enable JavaScript, or upgrade to a modern web browser such as
+                <a href="https://www.google.com/chrome/" target="_blank">Chrome</a> or
+                <a href="https://www.mozilla.org/en-US/firefox/" target="_blank">Firefox</a>.
+            </p>
+        </div>
+    </noscript>
+
+    {% if page.masonry %}
+        <!-- Include Masonry if the page requires it. -->
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script type="text/javascript">
+            window.addEventListener('load', function ()
+            {
+                // Find all elements tagged '.grid'.
+                var elems = document.querySelectorAll('.grid');
+
+                // Initialize each of them with a Masonry instance.
+                var masonries = [];
+                elems.forEach(function(elem, index)
+                {
+                    var msnry = new Masonry(elem,
+                    {
+                        itemSelector: '.grid_item',
+                        columnWidth: '.grid_item',
+                        gutter: '.gutter',
+                    });
+                    masonries.push(msnry);
+                });
+                console.log("loaded " + masonries.length + " Masonry grids.");
+            });
+        </script>
+    {% endif %}
+</footer>

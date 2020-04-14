@@ -1,0 +1,37 @@
+---
+---
+{% comment %}
+    Empty front matter to force jekyll processing.
+{% endcomment %}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+	{% include head.html %}
+</head>
+
+<body class="markdown-body">
+	{% include header.html %}
+
+	<main>
+		<div class="single_column">
+			<article>
+                {{ content }}
+
+                <!-- Additional content included, if the page should show a unity WebGl build. -->
+                {% if page.unity_dir %}
+                    <div class="webgl-content">
+                        <div id="gameContainer"></div>
+                        <div class="footer">
+                            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                        </div>
+                    </div>
+                {% endif %}
+			</article>
+		</div>
+	</main>
+
+	{% include footer.html %}
+</body>
+</html>

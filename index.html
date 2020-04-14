@@ -1,37 +1,43 @@
+---
+masonry: true
+---
+{% comment %}
+    Empty front matter to force jekyll processing.
+{% endcomment %}
+
 <!doctype html>
+
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Virtual MISLS</title>
-    <meta name="author" content="AISOS - Daniel Shervheim" />
-
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-
-    <link rel="stylesheet" type="text/css" href="assets/css/destyle.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	{% include head.html %}
 </head>
 
 <body class="markdown-body">
-    <header>
-        <div class="site-title">
-            <h1>
-                Virtual MISLS
-            </h1>
-        </div>
-    </header>
+	{% include header.html %}
 
 	<main>
-        <a href="player">
-            Try it out!
-        </a>
-	</main>
+        <!-- Project label -->
+		<h2 class="grid_label">Projects</h2>
 
-    <footer>
-        
-    </footer>
+        <!-- Project grid -->
+        <div class="grid">
+        <div class="gutter"></div>
+            {% for item in site.projects %}
+            {% unless item.hide %}
+                <div class="grid_item">
+                    <a href="{{ item.permalink | prepend: site.baseurl }}">
+                        <img src="{{ item.image }}" />
+                    </a>
+                    <p class="grid_item_label">
+                        <a href="{{ item.permalink | prepend: site.baseurl }}">
+                            {{ item.title }}
+                        </a>
+                    </p>
+                </div>
+            {% endunless %}
+            {% endfor %}
+        </div>
+
+	{% include footer.html %}
 </body>
 </html>

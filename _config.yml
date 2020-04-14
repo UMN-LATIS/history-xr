@@ -1,0 +1,31 @@
+# Site config
+baseurl: ""
+
+# User config
+title: "HistoryXR"
+description: "A collection of historical XR projects by the AISOS lab at UMN."
+author: "Daniel Shervheim (on behalf of AISOS)"
+email: "aisos@umn.edu"
+
+# User collections
+collections:
+    projects:
+        output: true
+    coursework:
+        output: true
+
+# Collection defaults.
+defaults:
+-
+    scope:
+        path: "_posts"
+        type: "posts"
+    values:
+        layout: page
+-
+    scope:
+        path: "_projects"
+        type: "projects"
+    values:
+        layout: page
+        image: /assets/img/placeholder.jpg

@@ -1,6 +1,7 @@
 ---
 title: Virtual MISLS
 permalink: /projects/virtual-misls
+image: /assets/img/virtual-misls/hall.png
 ---
 
 # Virtual MISLS

@@ -21,7 +21,4 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/TemplateData/style.css">
     <script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/TemplateData/UnityProgress.js"></script>
     <script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/{{page.unity_dir}}.json", {onProgress: UnityProgress});
-    </script>
 {% endif %}

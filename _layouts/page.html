@@ -21,12 +21,37 @@
 
                 <!-- Additional content included, if the page should show a unity WebGl build. -->
                 {% if page.unity_dir %}
-                    <div class="webgl-content">
-                        <div id="gameContainer"></div>
-                        <div class="footer">
-                            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                    <div id="unity-container">
+                        <div class="webgl-content">
+                            <div id="gameContainer"></div>
+                            <div class="footer">
+                                <div class="fullscreen" onclick="makeFullScreen()"></div>
+                            </div>
                         </div>
                     </div>
+                    <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
+                    <script type="text/javascript">
+                        var gameInstance;
+
+                        window.onload = function()
+                        {
+                            var md = new MobileDetect(window.navigator.userAgent);
+                            console.log(md);
+                            if (md.mobile() != null)
+                            {
+                                window.document.getElementById("unity-container").innerHTML = "<h1>Oops!</h1><p>This web experience is not supported on mobile browsers. Please visit this website on your desktop or laptop. Thanks!</p>";
+                            }
+                            else
+                            {
+                                gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/{{page.unity_dir}}.json", {onProgress: UnityProgress});
+                            }
+                        }
+
+                        function makeFullScreen()
+                        {
+                            gameInstance.SetFullscreen(1);
+                        }
+                    </script>
                 {% endif %}
 			</article>
 		</div>

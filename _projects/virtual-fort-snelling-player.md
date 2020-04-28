@@ -9,4 +9,4 @@ hide: true
 unity_dir: virtual-fort-snelling-webgl
 ---
 
-> Tip: press the `enter` key to hide the cursor, and the `escape` key to make it visible again.
+> Tip: press the `enter` key to show and hide the cursor.

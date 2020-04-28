@@ -17,15 +17,13 @@
 	<main>
 		<div class="single_column">
 			<article>
-                {{ content }}
-
                 <!-- Additional content included, if the page should show a unity WebGl build. -->
                 {% if page.unity_dir %}
                     <div id="unity-container">
                         <div class="webgl-content">
                             <div id="gameContainer"></div>
                             <div class="footer">
-                                <div class="fullscreen" onclick="makeFullScreen()"></div>
+                                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
                             </div>
                         </div>
                     </div>
@@ -36,7 +34,6 @@
                         window.onload = function()
                         {
                             var md = new MobileDetect(window.navigator.userAgent);
-                            console.log(md);
                             if (md.mobile() != null)
                             {
                                 window.document.getElementById("unity-container").innerHTML = "<h1>Oops!</h1><p>This web experience is not supported on mobile browsers. Please visit this website on your desktop or laptop. Thanks!</p>";
@@ -46,13 +43,10 @@
                                 gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/{{page.unity_dir}}.json", {onProgress: UnityProgress});
                             }
                         }
-
-                        function makeFullScreen()
-                        {
-                            gameInstance.SetFullscreen(1);
-                        }
                     </script>
                 {% endif %}
+
+                {{ content }}
 			</article>
 		</div>
 	</main>

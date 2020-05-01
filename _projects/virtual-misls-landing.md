@@ -14,4 +14,7 @@ During World War II, the MISLS trained soldiers in the Japanese language to aid 
 
 ## Try it Yourself
 
-Virtual MISLS is available as an app on the [iOS App Store](https://apps.apple.com/us/app/id1434870165){:target="_blank"}, the [Google Play Store](https://play.google.com/store/apps/details?id=com.aisos.virtualmisls){:target="_blank"}, and [right here](/projects/virtual-misls/player) in your browser!
+Virtual MISLS is available in your browser, [right here](/projects/virtual-misls/player). It is also available as an app.
+
+- [iOS App Store](https://apps.apple.com/us/app/id1434870165){:target="_blank"}
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.aisos.virtualmisls){:target="_blank"}

@@ -11,4 +11,12 @@ unity_dir: virtual-misls-webgl
 
 <!-- No content needed. Jekyll fills it in with the html from the unity WebGl build. -->
 
-> Tip: click the screen to capturer the cursor, and press the `escape` key to free it again.
+## Instructions
+
+Click anywhere on the screen to hide your cursor, and press the `escape` key to show it again.
+
+Use the `arrow keys` to move around the environment.
+
+Use the `mouse` to look around the environment.
+
+When your pointer becomes an open circle, click the `left mouse button` to interact with the environment.

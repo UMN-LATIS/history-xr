@@ -20,3 +20,5 @@ Use the `arrow keys` to move around the environment.
 Use the `mouse` to look around the environment.
 
 When your pointer becomes an open circle, click the `left mouse button` to interact with the environment.
+
+<br/>

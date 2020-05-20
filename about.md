@@ -13,3 +13,5 @@ HistoryXR is a collaborative effort! You can learn more about the folks who help
 - [AISOS](http://aisos.umn.edu/){:target="_blank"}
 - [Anthropology Labs](https://cla.umn.edu/anthropology/research/research-centers-labs){:target="_blank"}
 - [Master in Heritage Studies and Public History](https://hsph.design.umn.edu/){:target="_blank"}
+
+<br/>

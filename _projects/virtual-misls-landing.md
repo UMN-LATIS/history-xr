@@ -12,11 +12,22 @@ Virtual MISLS is a virtual tour of the Military Intelligence Service Language Sc
 
 During World War II, the MISLS trained soldiers in the Japanese language to aid the war effort. Since then, many of buildings have fallen into disrepair. We created this virtual tour to enable people to immerse themselves in a part of history that is often under-represented at Fort Snelling.
 
-Both **touch** and **Cardboard VR** modes are supported.
+<ul class="subtitle">
+<li>Faculty project lead: <a href="https://cla.umn.edu/about/directory/profile/kathayes" target="_blank">Dr. Katherine Hayes</a></li>
+<li>Programmer: <a href="https://danielshervheim.com/" target="_blank">Dan Shervheim</a></li>
+</ul>
+
+<br/>
 
 ## Try it Yourself
 
-Virtual MISLS is available in your browser, [right here](/projects/virtual-misls/player). It is also available as an app.
+Virtual MISLS is available in your browser, [right here](/projects/virtual-misls/player). It is also available as a mobile app.
 
-- [iOS App Store](https://apps.apple.com/us/app/id1434870165){:target="_blank"}
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.aisos.virtualmisls){:target="_blank"}
+- [iOS App Store](https://apps.apple.com/us/app/id1434870165){:target="_blank"}<sup>†</sup>
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.aisos.virtualmisls){:target="_blank"}<sup>†</sup>
+
+<span class="subtitle">
+† supports VR through the Google Cardboard viewer.
+</span>
+
+<br/>

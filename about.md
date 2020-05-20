@@ -6,6 +6,10 @@ layout: page
 
 ## About
 
-HistoryXR is a repository for a collection of historical-related projects created by the AISOS lab, at the University of Minnesota.
+HistoryXR is a repository for digital heritage projects built by the University of Minnesota’s Advanced Imaging Services for Objects and Spaces (AISOS) lab, in collaboration with faculty, students, community groups and historical organizations.  We work especially with the department of Anthropology, and the graduate program in Heritage Studies and Public History.
 
-For more information about AISOS, please visit us at [www.aisos.umn.edu](http://aisos.umn.edu/){:target="_blank"}.
+HistoryXR is a collaborative effort! You can learn more about the folks who helped make our work possible by visiting their websites.
+
+- [AISOS](http://aisos.umn.edu/){:target="_blank"}
+- [Anthropology Labs](https://cla.umn.edu/anthropology/research/research-centers-labs){:target="_blank"}
+- [Master in Heritage Studies and Public History](https://hsph.design.umn.edu/){:target="_blank"}

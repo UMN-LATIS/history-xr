@@ -2,7 +2,7 @@
 :root
 {
     /* SITEWIDE styles */
-    --contentWidth: 1170px;
+    --contentWidth: 900px;
     --articleWidth: 600px;
 
     --maroon: #7a0019;
@@ -11,7 +11,7 @@
 
     /* MASONRY variables */
     --gutter: 20px;
-    --columns: 3;
+    --columns: 2;
     --gridItemWidth: calc((100% - var(--gutter)*(var(--columns) - 1)) / var(--columns));
     --gridItemHeight: calc((var(--contentWidth) - var(--gutter)*(var(--columns) - 1)) / var(--columns));
     --gridItemMaxHeight:  calc((100vw - var(--gutter)*(var(--columns) - 1)) / var(--columns));
@@ -113,6 +113,12 @@ header
 .button img
 {
     width: 140px;
+}
+
+.subtitle
+{
+    font-size: 14px;
+    color: var(--dark-gray);
 }
 
 

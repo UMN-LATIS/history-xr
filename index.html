@@ -8,14 +8,13 @@ masonry: true
 <!doctype html>
 
 <html lang="en">
-<head>
-	{% include head.html %}
-</head>
+{% include head.html %}
 
 <body class="markdown-body">
-	{% include header.html %}
+	{% include umnheader.html %}
+    {% include header.html %}
 
-	<main>
+	<main id="content">
         <!-- Project label -->
 		<h2 class="grid_label">Projects</h2>
 
@@ -37,7 +36,9 @@ masonry: true
             {% endunless %}
             {% endfor %}
         </div>
+    </main>
 
 	{% include footer.html %}
+    {% include umnfooter.html %}
 </body>
 </html>

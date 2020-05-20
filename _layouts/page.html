@@ -7,14 +7,13 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-	{% include head.html %}
-</head>
+{% include head.html %}
 
 <body class="markdown-body">
+    {% include umnheader.html %}
 	{% include header.html %}
 
-	<main>
+	<main id="content">
 		<div class="single_column">
 			<article>
                 <!-- Additional content included, if the page should show a unity WebGl build. -->
@@ -52,5 +51,6 @@
 	</main>
 
 	{% include footer.html %}
+    {% include umnfooter.html %}
 </body>
 </html>

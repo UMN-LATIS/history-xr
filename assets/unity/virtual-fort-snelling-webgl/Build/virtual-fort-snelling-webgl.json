@@ -1,16 +1,13 @@
 {
-"companyName": "University of Minnesota",
-"productName": "Fort Snelling",
-"productVersion": "0.2",
+"companyName": "DefaultCompany",
+"productName": "Virtual Fort Snelling",
 "dataUrl": "virtual-fort-snelling-webgl.data.unityweb",
 "wasmCodeUrl": "virtual-fort-snelling-webgl.wasm.code.unityweb",
 "wasmFrameworkUrl": "virtual-fort-snelling-webgl.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
-"splashScreenStyle": "Light",
-"backgroundColor": "#FFFFFF",
-"cacheControl": {"default": "must-revalidate"},
-"developmentBuild": false,
-"multithreading": false,
-"unityVersion": "2019.2.0f1"
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
 }

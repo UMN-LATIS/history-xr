@@ -1,0 +1,14 @@
+I"¿<!-- No content needed. Jekyll fills it in with the html from the unity WebGl build. -->
+
+<h2 id="instructions">Instructions</h2>
+
+<p>Click anywhere on the screen to hide your cursor, and press the <code class="language-plaintext highlighter-rouge">escape</code> key to show it again.</p>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">arrow keys</code> to move around the environment.</p>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">mouse</code> to look around the environment.</p>
+
+<p>When your pointer becomes an open circle, click the <code class="language-plaintext highlighter-rouge">left mouse button</code> to interact with the environment.</p>
+
+<p><br /></p>
+:ET

@@ -9,6 +9,8 @@ hide: true
 unity_dir: virtual-fort-snelling-webgl
 ---
 
+Please note that this experience **does not** work in Safari, you will need to use Chrome or Firefox. Sorry!
+
 > Tip: press `P` to pause the experience.
 
 <br/>

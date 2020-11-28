@@ -21,7 +21,7 @@ The goal of this project is to allow users to see the site of Fort Snelling at B
 
 Virtual Fort Snelling is available in your browser, [right here](/projects/virtual-fort-snelling/player). It is also available as a desktop and mobile app.
 
-- [MacOS](https://drive.google.com/file/d/1jwzM2dRhmhLbjkLbQuiTCPIqu6kTDd8c/view?usp=sharing){:target="_blank"}
+- [MacOS](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"}
 - [Windows](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view?usp=sharing){:target="_blank"}
 - ~~iOS App Store~~ Coming soon
 - ~~Google Play Store~~ Coming soon

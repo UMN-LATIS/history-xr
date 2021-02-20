@@ -121,6 +121,14 @@ header
     color: var(--dark-gray);
 }
 
+.badge
+{
+    background-color: #0366d6;
+    padding: 2.5px 5px;
+    color: white;
+    border-radius: 5px;
+    font-size:10px;
+}
 
 /* FOOTER */
 /* footer

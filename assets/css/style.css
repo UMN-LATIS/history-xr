@@ -123,11 +123,21 @@ header
 
 .badge
 {
-    background-color: #0366d6;
     padding: 2.5px 5px;
-    color: white;
     border-radius: 5px;
     font-size:10px;
+}
+
+.badge-blue
+{
+    background-color: #0366d6;
+    color: white;
+}
+
+.badge-gray
+{
+    background-color: #858585;
+    color: white;
 }
 
 /* FOOTER */

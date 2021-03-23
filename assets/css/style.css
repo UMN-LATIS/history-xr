@@ -126,6 +126,7 @@ header
     padding: 2.5px 5px;
     border-radius: 5px;
     font-size:10px;
+    vertical-align: middle;
 }
 
 .badge-blue
@@ -137,6 +138,24 @@ header
 .badge-gray
 {
     background-color: #858585;
+    color: white;
+}
+
+.badge-yellow
+{
+    background-color: #ffd117;
+    color: black;
+}
+
+.badge-red
+{
+    background-color: #ff4d17;
+    color: white;
+}
+
+.badge-green
+{
+    background-color: #0b9460;
     color: white;
 }
 
@@ -194,6 +213,10 @@ header
     text-align:center;
 }
 
+p.grid_item_label
+{
+    margin-top: 0.5em;
+}
 
 
 /* MOBILE */

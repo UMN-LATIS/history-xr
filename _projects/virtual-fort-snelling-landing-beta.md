@@ -33,17 +33,19 @@ This project is under construction. Beta releases are available below for a vari
 
 **macOS Beta Releases**
 
-- [<span class="badge badge-blue">v1.1</span>](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"} (latest)
-- [<span class="badge badge-gray">v1.0</span>](https://drive.google.com/file/d/1jwzM2dRhmhLbjkLbQuiTCPIqu6kTDd8c/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-blue">v1.2</span> [Google Drive](https://drive.google.com/file/d/1FQJMOL-Riitxqau2lPNtAl27oI1ZcmR5/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/1jwzM2dRhmhLbjkLbQuiTCPIqu6kTDd8c/view?usp=sharing){:target="_blank"}
 
 **Windows Beta Releases**
 
-- [<span class="badge badge-blue">v1.1</span>](https://drive.google.com/file/d/1mfNAqyDsjYkFihs2QJ4XqV0AuRxAOnjn/view?usp=sharing){:target="_blank"} (latest)
-- [<span class="badge badge-gray">v1.0</span>](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view){:target="_blank"}
+- <span class="badge badge-blue">v1.2</span> [Google Drive](https://drive.google.com/file/d/1ATOEzaz_anJ1eNBS7Lz3KUWpsiYuTyLZ/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mfNAqyDsjYkFihs2QJ4XqV0AuRxAOnjn/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view){:target="_blank"}
 
 **Web Beta Releases**
 
-- [<span class="badge badge-gray">v1.0</span>](/projects/virtual-fort-snelling/player)
+- <span class="badge badge-gray">v1.0</span> [HistoryXR](/projects/virtual-fort-snelling/player){:target="_blank"}
 
 <br/>
 
@@ -62,16 +64,50 @@ Here's what's new.
 
 ---
 
-**v1.1**
+### v1.2
 
-November 29, 2020
+March 31st, 2021
 
-- Adjusted menu scrolling sensitivity on desktop platforms.
-- Added click-and-draggable scrollbars to menus.
+<span class="badge badge-blue">Features</span>
+- Small screen support
+    - The interface now automatically resizes from devices as small phones to as large as desktops.
+    - This is in preparation for a mobile release.
+- Birds eye view
+    - You can now view the fort from a “birds eye” view in addition to a “first person” view.
+    - Look for the toggle in the pause menu.
+        - Left click + drag to move in birds eye view.
+        - Right click + drag to pivot the camera in birds eye view.
+        - Scroll with the mouse wheel to zoom in birds eye view.
+- Timeline scrolling
+    - Now you can just scroll through the timeline to change the year, rather than having to click on individual years.
+- Virtual MISLS link
+    - The menu page for “building 103” now links to the Virtual MISLS app through our HistoryXR website.
+
+<span class="badge badge-green">Fixes</span>
+-  Upgraded to Unity 2019.4 LTS
+    - Improved overall stability.
+
+<span class="badge badge-red">Known Bugs</span>
+- Some icons are blurry on non-retina screens.
+- Some buttons are too small on non-retina screens.
+- Touchpad scrolling is sometimes jittery on macOS platforms.
+- In birds eye view, building block the player from moving. They shouldn't.
 
 ---
 
-**v1.0**
+### v1.1
+
+November 29, 2020
+
+<span class="badge badge-blue">Features</span>
+- Added click-and-draggable scrollbars to menus.
+
+<span class="badge badge-green">Fixes</span>
+- Adjusted menu scrolling sensitivity on desktop platforms.
+
+---
+
+## v1.0
 
 November 21, 2020
 

@@ -33,13 +33,15 @@ This project is under construction. Beta releases are available below for a vari
 
 **macOS Beta Releases**
 
-- <span class="badge badge-blue">v1.2</span> [Google Drive](https://drive.google.com/file/d/1FQJMOL-Riitxqau2lPNtAl27oI1ZcmR5/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-blue">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/1jajtiGJtGuTASSVLAwFgyhZRCtBRbn8j/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1FQJMOL-Riitxqau2lPNtAl27oI1ZcmR5/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/1jwzM2dRhmhLbjkLbQuiTCPIqu6kTDd8c/view?usp=sharing){:target="_blank"}
 
 **Windows Beta Releases**
 
-- <span class="badge badge-blue">v1.2</span> [Google Drive](https://drive.google.com/file/d/1ATOEzaz_anJ1eNBS7Lz3KUWpsiYuTyLZ/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-blue">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/19nZoKCIjU77vqF42c4auFpr91R7TTTZh/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1ATOEzaz_anJ1eNBS7Lz3KUWpsiYuTyLZ/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mfNAqyDsjYkFihs2QJ4XqV0AuRxAOnjn/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view){:target="_blank"}
 
@@ -63,6 +65,27 @@ Found a bug? Want to share some feedback? Please let us know via email!
 Here's what's new.
 
 ---
+
+### November 8th, 2021
+
+<span class="badge badge-blue">Features</span>
+- Reworked the internal data model to allow for [community contributions](http://umn-latis.github.io/virtual-fort-snelling-documentation/) via [Github](https://github.com/UMN-LATIS/virtual-fort-snelling-data).
+- Reworked the timeline UI.
+- Reworked the internal rendering setup to prepare for vegetation.
+
+<span class="badge badge-green">Fixes</span>
+- Upgraded to Unity 2020.3 LTS and the Universal Render Pipeline
+    - Improved overall stability and performance.
+
+<span class="badge badge-red">Known Bugs</span>
+- Some text and icons are blurry on non-retina screens.
+- Scrolling is not sensitive enough on Windows platforms.
+- Minor color inconsistencies in the UI.
+
+<span class="badge badge-gray">Upcoming</span>
+- Vegetation (trees, grass, etc) 3D models
+- Road 3D models
+- Tour tooltips in-world (in addition to in-UI).
 
 ### v1.2
 

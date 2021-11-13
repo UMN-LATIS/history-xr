@@ -33,14 +33,15 @@ This project is under construction. Beta releases are available below for a vari
 
 **macOS Beta Releases**
 
-- <span class="badge badge-blue">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/1jajtiGJtGuTASSVLAwFgyhZRCtBRbn8j/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-blue">Nov 12th, 2021</span> [Google Drive](https://drive.google.com/file/d/1XXTr0ITvitN-HMVbHlr5x7n_LHyIavKB/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/1jajtiGJtGuTASSVLAwFgyhZRCtBRbn8j/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1FQJMOL-Riitxqau2lPNtAl27oI1ZcmR5/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/1jwzM2dRhmhLbjkLbQuiTCPIqu6kTDd8c/view?usp=sharing){:target="_blank"}
 
 **Windows Beta Releases**
 
-- <span class="badge badge-blue">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/19nZoKCIjU77vqF42c4auFpr91R7TTTZh/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/19nZoKCIjU77vqF42c4auFpr91R7TTTZh/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1ATOEzaz_anJ1eNBS7Lz3KUWpsiYuTyLZ/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mfNAqyDsjYkFihs2QJ4XqV0AuRxAOnjn/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view){:target="_blank"}
@@ -65,6 +66,25 @@ Found a bug? Want to share some feedback? Please let us know via email!
 Here's what's new.
 
 ---
+
+### November 12th, 2021
+
+<span class="badge badge-blue">Features</span>
+- Improved the camera controls.
+    - Now you can move with WASD/Arrow Keys
+- Added rivers.
+- Added an option to enable/disable reflections in the river surfaces.
+    - Enabled looks much better, but comes at a performance cost.
+- Added preliminary vegetation.
+- Added in-world tooltips that one can click on to launch certain pages.
+
+<span class="badge badge-green">Fixes</span>
+- Fixed color inconsistancy in the UI.
+
+<span class="badge badge-gray">Upcoming</span>
+- Improve the vegetation coverage / make it responsive over time.
+- Road 3D models
+- Refine tooltip UI / interaction.
 
 ### November 8th, 2021
 

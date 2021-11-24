@@ -34,8 +34,9 @@ This project is under construction. Beta releases are available below for a vari
 
 **macOS Beta Releases**
 
-- <span class="badge badge-blue">Nov 19th, 2021</span> [Google Drive](https://drive.google.com/file/d/1imO9MbcdZ3dVaj3RBTC874-D_BDYnwGO/view?usp=sharing){:target="_blank"}
-- <span class="badge badge-gray">Nov 12th, 2021</span> [Google Drive](https://drive.google.com/file/d/1XXTr0ITvitN-HMVbHlr5x7n_LHyIavKB/view?usp=sharing){:target="_blank"}
+
+- <span class="badge badge-blue">Nov 23rd, 2021</span> [Google Drive](https://drive.google.com/file/d/18YGPeIK_Ba_XedxMY4uGEfwa9WsMk_Vt/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">Nov 19th, 2021</span> [Google Drive](https://drive.google.com/file/d/1imO9MbcdZ3dVaj3RBTC874-D_BDYnwGO/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/1jajtiGJtGuTASSVLAwFgyhZRCtBRbn8j/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1FQJMOL-Riitxqau2lPNtAl27oI1ZcmR5/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mjJrSPAXbWI6WrEXQhKjKin_5s7Z3EP7/view?usp=sharing){:target="_blank"}
@@ -43,15 +44,20 @@ This project is under construction. Beta releases are available below for a vari
 
 **Windows Beta Releases**
 
-- <span class="badge badge-blue">Nov 19th, 2021</span> [Google Drive](https://drive.google.com/file/d/1I6-pHRmsMo0G2EbmfRK5J6fobt5IfjEo/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-blue">Nov 23rd, 2021</span> [Google Drive](https://drive.google.com/file/d/1h-gtJ89j_EYoze6PFlbyTltn5mVQqAaV/view?usp=sharing){:target="_blank"}
+- <span class="badge badge-gray">Nov 19th, 2021</span> [Google Drive](https://drive.google.com/file/d/1I6-pHRmsMo0G2EbmfRK5J6fobt5IfjEo/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">Nov 8th, 2021</span> [Google Drive](https://drive.google.com/file/d/19nZoKCIjU77vqF42c4auFpr91R7TTTZh/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.2</span> [Google Drive](https://drive.google.com/file/d/1ATOEzaz_anJ1eNBS7Lz3KUWpsiYuTyLZ/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.1</span> [Google Drive](https://drive.google.com/file/d/1mfNAqyDsjYkFihs2QJ4XqV0AuRxAOnjn/view?usp=sharing){:target="_blank"}
 - <span class="badge badge-gray">v1.0</span> [Google Drive](https://drive.google.com/file/d/19zgNdxXbUTcmxIre9TFKjgmfJvcVF58o/view){:target="_blank"}
 
-**Web Beta Releases**
+<!--
+
+ **Web Beta Releases**
 
 - <span class="badge badge-gray">v1.0</span> [HistoryXR](/projects/virtual-fort-snelling/player){:target="_blank"}
+
+-->
 
 <br/>
 
@@ -59,7 +65,7 @@ This project is under construction. Beta releases are available below for a vari
 
 Found a bug? Want to share some feedback? Please let us know via email!
 
-<a href="mailto:sherv029+vfs@umn.edu?subject=Virtual Fort Snelling Feedback">Contact Us</a>
+<a href="mailto:aisos@umn.edu?subject=Virtual Fort Snelling Feedback">Contact Us</a>
 
 <br/>
 
@@ -67,6 +73,20 @@ Found a bug? Want to share some feedback? Please let us know via email!
 ## Version History
 
 Here's what's new.
+
+---
+
+### November 23rd, 2021
+
+<span class="badge badge-blue">Features</span>
+- Added clouds to the sky.
+- Added manually-placed trees to certain parts of the diamond area for certain time periods.
+- Added anti-aliasing options to the Graphics menu.
+
+<span class="badge badge-green">Fixes</span>
+- Updated the tree coverage to better reflect the post-glacial period of the last few thousands years.
+- Prevented users from being able to walk off the edge of the map.
+- Fixed a scrolling-sensitivity issue on Windows.
 
 ---
 

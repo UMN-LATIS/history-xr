@@ -18,7 +18,7 @@ For this project, we worked with members of the Twin Cities Japanese American Ci
 
 A demonstration of the Virtual MISLS video is viewable below.
 
-<iframe src="https://drive.google.com/file/d/1fvADIKgMQmybuDQpigidCC2hktQpuY7D/preview" width="100%" height="300" allow="autoplay"></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/kB9VMcMJO2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <ul class="subtitle">
 <li>Faculty project lead: <a href="https://cla.umn.edu/about/directory/profile/kathayes" target="_blank">Dr. Katherine Hayes</a></li>

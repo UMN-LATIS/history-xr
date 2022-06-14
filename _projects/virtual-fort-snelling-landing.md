@@ -13,7 +13,11 @@ image: /assets/img/virtual-fort-snelling/commanders-house-2021-cropped.png
 
 ## About
 
-The goal of this project is to allow users to see the site of Fort Snelling at Bdote as it looked in many different periods. Although this historic site has been Dakota homeland for thousands of years, and was an active-use settler colonial military site for 125 years, visitors today mainly see the reconstructed 1820s frontier fort. This 3D landscape model is being created using digital elevation models, historic maps and photographs, archaeological remains, oral histories, and archived documents.
+The goal of this project is to allow users to see the site of Fort Snelling at Bdote as it looked in many different periods. This historic site has been Dakota homeland for thousands of years, and was an active-use settler colonial military site for 125 years. Visitors to the site today see a reconstructed 1820s frontier fort, but we hope this app will allow you to see the site very differently. 
+
+This 3D landscape model is being created using digital elevation models, historic maps and photographs, archaeological remains, oral histories, and archived documents.
+
+
 
 <br/>
 

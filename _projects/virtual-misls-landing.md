@@ -10,7 +10,15 @@ image: /assets/img/virtual-misls/hall.png
 
 Virtual MISLS is a virtual tour of the Military Intelligence Service Language School at Fort Snelling, Minnesota.
 
-During World War II, the MISLS trained soldiers in the Japanese language to aid the war effort. Since then, many of buildings have fallen into disrepair. We created this virtual tour to enable people to immerse themselves in a part of history that is often under-represented at Fort Snelling.
+During World War II, the MISLS trained soldiers in the Japanese language to aid the war effort. Many of these soldiers were Japanese American citizens who had been incarcerated because of FDR’s Executive Order 9066.  It is thus a challenging part of our history.
+
+Many of the buildings used for the language school fell into disrepair after Fort Snelling was decommissioned, but are now being repurposed to create affordable housing for veterans. We built this virtual exhibit to enable people to visit one of the classroom buildings, and to immerse themselves in a part of history that has been  under-represented at Fort Snelling until recently
+
+For this project, we worked with members of the Twin Cities Japanese American Citizens League, a remarkable organization that continues to do social justice and advocacy work.
+
+A demonstration of the Virtual MISLS video is viewable below.
+
+<iframe src="https://drive.google.com/file/d/1fvADIKgMQmybuDQpigidCC2hktQpuY7D/preview" width="100%" height="300" allow="autoplay"></iframe>
 
 <ul class="subtitle">
 <li>Faculty project lead: <a href="https://cla.umn.edu/about/directory/profile/kathayes" target="_blank">Dr. Katherine Hayes</a></li>

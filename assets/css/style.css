@@ -11,7 +11,7 @@
 
     /* MASONRY variables */
     --gutter: 20px;
-    --columns: 2;
+    --columns: 3;
     --gridItemWidth: calc((100% - var(--gutter)*(var(--columns) - 1)) / var(--columns));
     --gridItemHeight: calc((var(--contentWidth) - var(--gutter)*(var(--columns) - 1)) / var(--columns));
     --gridItemMaxHeight:  calc((100vw - var(--gutter)*(var(--columns) - 1)) / var(--columns));
